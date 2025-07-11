@@ -68,7 +68,7 @@ def main():
 # Email Credentials Config
 # ------------------------
 SENDER_EMAIL = "bilalsaeed620@gmail.com"       # 🔁 Replace with your sender Gmail
-APP_PASSWORD = "daxw twvy ibsu nuka"    # 🔁 Replace with your Gmail App Password
+APP_PASSWORD = "your_email_password_here"    # 🔁 Replace with your Gmail App Password
 
 if __name__ == "__main__":
     main()
