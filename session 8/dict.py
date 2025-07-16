@@ -74,14 +74,17 @@ users = {
 # # users["ali"] = {}
 # users[name] = { "username": username, "email": email, "password": password, "age": age, "gender":gender }
 
+username = input("enter username:")
+# # using for loop with dictionary
+for key, value in users.items():
+    # print(key.upper(), "=====>", value)
+    if value["username"] == username:
+        print(value["email"])
+
+
+
+# users.pop("hasaan")
+
 # # using for loop with dictionary
 # for key, value in users.items():
 #     print(key.upper(), "=====>", value)
-
-
-
-users.pop("hasaan")
-
-# using for loop with dictionary
-for key, value in users.items():
-    print(key.upper(), "=====>", value)
