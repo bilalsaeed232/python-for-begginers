@@ -109,9 +109,9 @@ def table(num):
 # n = int(input("Enter a number for table (or 0 to 'exit'):"))
 
 # # not equal operator: !=
-# while n != 0:
-#     table(n)
-#     n = int(input("Enter a number for table (or 0 to 'exit'):"))
+while n != 0:
+    table(n)
+    n = int(input("Enter a number for table (or 0 to 'exit'):"))
 
 # print("byeeee")
 
