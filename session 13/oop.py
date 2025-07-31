@@ -48,8 +48,8 @@ print(s1)
 #.   adjective ===> properties/fields
 
 
-
-
+if __name__ == "__main__":
+    print("__name__ in oop.py:",__name__)
 
 
 
